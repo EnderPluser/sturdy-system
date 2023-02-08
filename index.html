@@ -12,9 +12,14 @@
      background-size: 100% 100%;
    }
 </style>
-      
-      <audio autoplay="autoplay" loop="loop">
+      <audio id="audio" autoplay="autoplay" loop="loop">
       <source src="html/Red_Song.mp3" type="audio/mpeg" />
+   <script>
+document.getElementById('audio').play();
+function myFunction() {
+  alert("I am an alert box!");
+}
+  </script>
 </audio>   
 </body>
 </html>
